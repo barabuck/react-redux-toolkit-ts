@@ -2,7 +2,7 @@ import React from 'react';
 
 import AppRoute from './components/AppRoute/AppRoute';
 
-import './App.css';
+import './App.scss';
 
 function App () {
   return (

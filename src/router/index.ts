@@ -1,7 +1,6 @@
 import React from "react";
 import Login from "../pages/Login/Login";
 import User from "../pages/User/User";
-
 import Users from "../pages/Users/Users";
 
 export interface IRoute {
