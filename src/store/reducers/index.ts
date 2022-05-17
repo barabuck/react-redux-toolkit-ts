@@ -6,4 +6,4 @@ const reducers = {
     authReducer
 }
 
-export default reducers;
+export default reducers

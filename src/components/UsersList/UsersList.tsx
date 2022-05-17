@@ -1,7 +1,7 @@
-import React, { FC } from 'react';
-import { List } from 'antd';
-import { IUser } from '../../models/IUser';
-import Spinner from '../Spinner/Spinner';
+import React, { FC } from 'react'
+import { List } from 'antd'
+import { IUser } from '../../models/IUser'
+import Spinner from '../Spinner/Spinner'
 
 import './user-list.scss'
 
@@ -32,7 +32,7 @@ const UsersList: FC<Props> = (props: Props) => {
                 </List.Item>
             )}
         />
-    );
-};
+    )
+}
 
-export default UsersList;
+export default UsersList

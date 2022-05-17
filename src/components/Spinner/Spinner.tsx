@@ -1,5 +1,5 @@
-import { Spin } from 'antd';
-import React, { FC } from 'react';
+import { Spin } from 'antd'
+import React, { FC } from 'react'
 
 import './spinner.scss'
 
@@ -8,7 +8,7 @@ const Spinner: FC = () => {
         <div className='spinner'>
             <Spin />
         </div>
-    );
-};
+    )
+}
 
-export default Spinner;
+export default Spinner

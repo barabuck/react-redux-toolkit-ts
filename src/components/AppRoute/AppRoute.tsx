@@ -1,7 +1,7 @@
-import React from 'react';
-import { Route, Routes, Navigate } from 'react-router-dom';
-import { useAppSelector } from '../../hooks/redux';
-import { privateRoutes, publicRoutes, RoutesNames } from '../../router';
+import React from 'react'
+import { Route, Routes, Navigate } from 'react-router-dom'
+import { useAppSelector } from '../../hooks/redux'
+import { privateRoutes, publicRoutes, RoutesNames } from '../../router'
 
 function AppRoute () {
     const { auth } = useAppSelector( state => state.authReducer )
@@ -32,7 +32,7 @@ function AppRoute () {
                 <Route path="*" element = { <Navigate to = { RoutesNames.LOGIN } /> } />
             </Routes>
         </Routes>
-  );
+  )
 }
 
-export default AppRoute;
+export default AppRoute

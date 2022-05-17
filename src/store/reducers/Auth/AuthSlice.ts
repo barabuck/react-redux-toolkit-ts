@@ -1,8 +1,8 @@
-import { createSlice } from "@reduxjs/toolkit";
+import { createSlice } from "@reduxjs/toolkit"
 
 interface AuthState {
-    auth: boolean;
-    error: string;
+    auth: boolean
+    error: string
 }
 
 const initialState: AuthState = {
@@ -18,4 +18,4 @@ export const authSlice = createSlice({
     }
 })
 
-export default authSlice.reducer;
+export default authSlice.reducer

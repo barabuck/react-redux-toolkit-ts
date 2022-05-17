@@ -1,15 +1,14 @@
-import React from 'react';
+import React, { FC } from 'react'
+import AppRoute from './components/AppRoute/AppRoute'
 
-import AppRoute from './components/AppRoute/AppRoute';
+import './App.scss'
 
-import './App.scss';
-
-function App () {
+const App: FC = () => {
   return (
     <div>
-      <AppRoute />
+        <AppRoute />
     </div>
-  );
+  )
 }
 
-export default App;
+export default App
