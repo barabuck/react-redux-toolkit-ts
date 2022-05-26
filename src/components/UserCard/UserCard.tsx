@@ -1,5 +1,5 @@
-import React, { FC } from 'react';
-import { IUser } from '../../models/IUser';
+import React, { FC } from 'react'
+import IUser from '../../models/IUser'
 import Spinner from '../Spinner/Spinner'
 
 import './user-card.scss'
@@ -22,7 +22,7 @@ const UserCard: FC<Props> = (props: Props) => {
         <div className='user-card__name'>Phone: { props.data?.phone }</div>
         <div className='user-card__name'>Number: { props.data?.website }</div>
       </div>
-  );
-};
+  )
+}
 
-export default UserCard;
+export default UserCard
