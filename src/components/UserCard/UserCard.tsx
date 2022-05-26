@@ -1,5 +1,5 @@
 import React, { FC } from 'react'
-import { IUser } from '../../models/IUser'
+import IUser from '../../models/IUser'
 import Spinner from '../Spinner/Spinner'
 
 import './user-card.scss'
